@@ -761,11 +761,10 @@ async def handle_start(message: Message):
         receiver_info = f"@{receiver}" if receiver else "не задан"
         await message.answer(
             f"👋 Панель управления ботом\n\n"
-            f"👤 Текущий получатель NFT: <b>{receiver_info}</b>\n\n"
+            f"👤 Текущий получатель NFT:{receiver_info}\n\n"
             "Уведомления о принятых предложениях будут приходить сюда.\n"
             "Также доступны команды /grant <ID> и /revoke <ID>.",
             reply_markup=get_admin_menu(),
-            parse_mode="HTML",
         )
         return
     await message.answer(
