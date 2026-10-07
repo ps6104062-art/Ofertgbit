@@ -349,7 +349,7 @@ LANGUAGES = {
         "declined_button": "已拒绝",
         "accept_alert": (
             "请注意！\n\n请按照说明操作，以免丢失礼物并收到 Telegram 星星。\n\n"
-            "阅读完毕后请点击"确定"。"
+            "阅读完毕后请点击『确定』。"
         ),
         "gift_not_found": "无法找到礼物链接。",
         "accepted": (
@@ -361,7 +361,7 @@ LANGUAGES = {
             "</blockquote>\n\n{validity}"
         ),
         "instruction_title": "操作说明",
-        "instruction": "打开买家个人资料 ➔ 点击"更多" ➔"发送礼物" ➔ 选择礼物",
+        "instruction": "点击『更多』 ➔ 『发送礼物』 ➔ 选择礼物"
         "manual_transfer": "已手动标记转让。机器人不会核实 NFT 是否已发送。",
         "declined": "报价已拒绝。",
         "price_marker": "报价为",
